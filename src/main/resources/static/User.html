@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create new user</title>
+</head>
+<body>
+<form method="post" action="adduser">
+<table>
+<tr><td>id</td><td><input type="number" name="id" required></td></tr>
+<tr><td>Nom:</td><td><input name="nom" type="text" pattern="[A-Z a-z]{3,}" title="le nom doit contenir seulement des lettres" required></td>
+<tr><td>Prenom:</td><td><input name="prenom" type="text" pattern="[A-Z a-z]{3,}" title="le prenom doit contenir seulement des lettres" required></td>
+<tr><td>Nom:</td><td><input name="age" type="number" min="18" required></td>
+<tr><td><input type="submit" value="envoyer"></td></tr>
+</table>
+
+
+
+</form>
+
+
+</body>
+</html>

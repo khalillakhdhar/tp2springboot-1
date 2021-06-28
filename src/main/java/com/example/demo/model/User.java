@@ -36,5 +36,9 @@ public User(int id, int age, String nom, String prenom) {
 }
 public User() {
 }
+@Override
+public String toString() {
+	return "User [id=" + id + ", age=" + age + ", nom=" + nom + ", prenom=" + prenom + "]";
+}
 
 }
